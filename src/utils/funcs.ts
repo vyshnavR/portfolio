@@ -141,15 +141,15 @@ export const argTab = (
   }
 
   // 8) if input is 'projects go '
-  else if (_.startsWith(inputVal, "projects go ")) {
-    [
-      "1.Sat Naing's Blog",
-      "2.Haru Fashion",
-      "3.Haru API",
-      "4.AstroPaper Blog Theme",
-    ].forEach(t => {
-      hintsCmds = [...hintsCmds, t];
-    });
-    return hintsCmds;
-  }
+  // else if (_.startsWith(inputVal, "projects go ")) {
+  //   [
+  //     "1.Sat Naing's Blog",
+  //     "2.Haru Fashion",
+  //     "3.Haru API",
+  //     "4.AstroPaper Blog Theme",
+  //   ].forEach(t => {
+  //     hintsCmds = [...hintsCmds, t];
+  //   });
+  //   return hintsCmds;
+  // }
 };
